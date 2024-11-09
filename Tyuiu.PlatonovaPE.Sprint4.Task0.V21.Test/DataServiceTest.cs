@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using Tyuiu.PlatonovaPE.Sprint4.Task0.V21.Lib;
-using Tyuiu.PlatonovaPE.Sprint4.Task0.V21.Lib;
 
 
 namespace Tyuiu.SugrovskiyNI.Sprint4.Task0.V21.Test

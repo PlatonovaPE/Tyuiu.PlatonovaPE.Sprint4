@@ -5,16 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 using tyuiu.cources.programming.interfaces.Sprint4;
-
 namespace Tyuiu.PlatonovaPE.Sprint4.Task5.V27.Lib
 {
-    public class DataService : ISprint4Task5V27
+    public class DataService : ISprint4Task5V24
     {
         public int Calculate(int[,] matrix)
         {
-
             int rows = matrix.GetUpperBound(0) + 1;
             int columns = matrix.Length / rows;
+
             int count = 0;
 
             for (int i = 0; i < rows; i++)
@@ -23,7 +22,7 @@ namespace Tyuiu.PlatonovaPE.Sprint4.Task5.V27.Lib
                 {
                     if (matrix[i, j] < 0)
                     {
-                        count += matrix[i, j];
+                        count++;
                     }
                 }
             }

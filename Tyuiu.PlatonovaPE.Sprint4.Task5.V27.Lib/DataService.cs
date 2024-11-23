@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using tyuiu.cources.programming.interfaces.Sprint4;
 namespace Tyuiu.PlatonovaPE.Sprint4.Task5.V27.Lib
 {
-    public class DataService : ISprint4Task5V24
+    public class DataService : ISprint4Task5V27
     {
         public int Calculate(int[,] matrix)
         {
